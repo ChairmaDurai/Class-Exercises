@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "email": "sdsdsd@gmail.com",
+      "password": "saishhauihaiushiusahsiuahiuahs",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

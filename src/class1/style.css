@@ -1,0 +1,110 @@
+.container {
+    height: 100%;
+    width: 100vw;
+}
+
+
+.container .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    background: lightgray;
+}
+
+.container .header>img {
+    height: 50px;
+    width: 50px;
+}
+
+
+.container .header>p {
+    font-size: xx-large;
+    font-weight: 900;
+    
+}
+
+
+.container main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container main section{
+    display: flex;
+}
+
+.container main section .left>p{
+    display: flex;
+    text-justify: newspaper;
+    width: 100%;
+    text-align: justify;
+}
+
+.container main section .left, .container main section .right{
+    flex: 1;
+} 
+
+.container main section .right > form{
+    display: flex;
+    height: 100%;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container main section .right > form > label, .container main section .right > form > input{
+    width: 50%;
+    text-align: flex-start;
+} 
+
+
+
+.container > p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    
+}
+
+.can{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.can :nth-child(1){
+    flex: 1;
+    object-fit: contain;
+}
+
+.can :nth-child(2){
+    flex: 1;
+    margin-top: 80px;
+    object-fit: contain;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.container main section .right > form > button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    outline:  none;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
